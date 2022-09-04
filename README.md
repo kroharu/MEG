@@ -1,5 +1,7 @@
 # Quspin
 
+![Preview](Quspin.png)
+
 ## How to build on Linux:
 ```shell
 cd ~/Desktop
