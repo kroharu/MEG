@@ -15,7 +15,7 @@
 cd ~/Desktop
 git clone git@github.com:kroharu/MEG.git
 sudo apt update
-sudo apt-install qt5-default
+sudo apt-get install qt5-default
 sudo apt-get install build-essential
 sudo apt-get install libgt5serialport5
 sudo apt-get install libgt5serialport5-dev
@@ -64,3 +64,11 @@ Run it and choose only Windows Desktop SDK.
 
 https://download.qt.io/archive/qt/5.14/5.14.2/
 https://download.qt.io/archive/qtcreator/4.11/4.11.2/
+
+sudo cp release/build/lib* /usr/local/lib
+cd /usr/local/lib
+sudo ln -s libftd2xx.so.1.4.27 libftdwxx.so
+sudo chmod 0755 libftd2xx.so.1.4.27
+sudo rmmod ftdi_sio
+sudo rmmod usbserial
+cd ~/Downloads/release/examples && make
