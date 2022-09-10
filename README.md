@@ -17,8 +17,8 @@ git clone git@github.com:kroharu/MEG.git
 sudo apt update
 sudo apt-get install qt5-default
 sudo apt-get install build-essential
-sudo apt-get install libgt5serialport5
-sudo apt-get install libgt5serialport5-dev
+sudo apt-get install -y libqt5serialport5
+sudo apt-get install -y libqt5serialport5-dev
 sudo apt-get install libqt5charts5
 sudo apt-get install libqt5charts5-dev
 sudo apt dist-upgrade
