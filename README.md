@@ -13,7 +13,7 @@
 ## How to build on Linux:
 ```shell
 cd ~/Desktop
-git clone git@github.com:kroharu/Quspin.git
+git clone git@github.com:kroharu/MEG.git
 sudo apt update
 sudo apt-install qt5-default
 sudo apt-get install build-essential
