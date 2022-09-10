@@ -48,7 +48,7 @@ Run it and choose only Windows Desktop SDK.
 
 6) Go here: https://drive.google.com/file/d/1btAtmC5bpDIZeOk5qBX7EvpbCyRZcYcm/view?usp=sharing and install National Instruments DAQmx driver installer. Run it.
 
-7) Go to C:\Qt\Tools\Qt Creator\bin and run qtcreator.exe file. Open Quspin.pro project, which should be in C:\Qt\QtProfects\Quspin. You will be redirected to the project settings page. Click on "setup project". Click on Qt Profile, choose add.. and browse C:\Qt\5.14.2\msvc2017_64\bin - there you'll find qmake.exe. Than make your configuration screen like this:
+7) Go to C:\Qt\Tools\Qt Creator\bin and run qtcreator.exe file. Open Quspin.pro project, which should be in C:\Qt\QtProfects\Quspin. You will be redirected to the project settings page. Click on "setup project". Click on Qt Profile, choose add.. and browse C:\Qt\5.14.2\msvc2017_64\bin - there you'll find qmake.exe. Then make your configuration screen like this:
 --Screenshot here--
 
 ### Enjoy!
