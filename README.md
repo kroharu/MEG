@@ -61,3 +61,6 @@ Run it and choose only Windows Desktop SDK.
 ![Preview](QtConfig.jpeg)
 
 ### Enjoy!
+
+https://download.qt.io/archive/qt/5.14/5.14.2/
+https://download.qt.io/archive/qtcreator/4.11/4.11.2/
