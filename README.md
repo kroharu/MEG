@@ -25,7 +25,7 @@ sudo apt dist-upgrade
 ```
 -- Turn ON your VPN here --
 ```shell
-sudo apt install ./Quspin/NILinux2020DeviceDrivers/ni-software-2020-bionic_20.1.0.49152-0+f0_all.deb
+sudo apt install ./MEG/Linux/NILinux2020DeviceDrivers/ni-software-2020-bionic_20.1.0.49152-0+f0_all.deb
 sudo apt update
 reboot
 ```
