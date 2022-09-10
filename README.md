@@ -41,7 +41,7 @@ After that run installed exe file, input your mail and password to sign in and p
 
 3) Go to the Qt folder, which default location should be like C:\Qt. There should be Qt creator folder - place it into the Tools folder. Also put Quspin folder from this github repository to C:\Qt\QtProjects folder (you should make QtProjects folder by yourself).
 
-4) Put all .dll files from amd64 folder in this repository to your C:\Windows\System32 folder.
+4) Put all .dll files from amd64 folder from this repository to your C:\Windows\System32 folder.
 
 5) Go here: https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15 to install VS Build Tools install manager.
 Run it and choose only Windows Desktop SDK.
