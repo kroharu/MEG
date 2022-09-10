@@ -30,3 +30,6 @@ make && ./Quspin
 ## How to build on Windows:
 https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
 https://www.ni.com/ru-ru/support/downloads/drivers/download/unpackaged.ni-daqmx.288260.html
+https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4
+https://download.qt.io/archive/qtcreator/4.11/4.11.2/
+https://drive.google.com/file/d/1btAtmC5bpDIZeOk5qBX7EvpbCyRZcYcm/view?usp=sharing
