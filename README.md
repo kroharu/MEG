@@ -31,7 +31,7 @@ reboot
 ```
 -- After rebooting your PC --
 ```shell
-cd ~/Desktop/Quspin/Quspin
+cd ~/Desktop/MEG/Linux/Quspin
 qmake
 make && ./Quspin
 ```
