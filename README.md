@@ -11,7 +11,7 @@
 3) Run the last .exe version of this programm from quspin_exe folder in this repository and be happy.
 
 
-## How to build and run on Linux:
+## How to build on Linux:
 
 ```shell
 cd ~/Desktop
@@ -24,12 +24,12 @@ sudo apt-get install -y libqt5serialport5-dev
 sudo apt-get install libqt5charts5
 sudo apt-get install libqt5charts5-dev
 cd MEG/Linux
+sudo cp release/build/lib* /usr/local/lib
 cd /usr/local/lib
 sudo ln -s libftd2xx.so.1.4.27 libftdwxx.so
 sudo chmod 0755 libftd2xx.so.1.4.27
 sudo rmmod ftdi_sio
 sudo rmmod usbserial
-sudo cp release/build/lib* /usr/local/lib
 sudo apt update
 sudo apt dist-upgrade
 sudo touch /usr/src/linux-headers-$(uname -r)/include/config/modversions.h
