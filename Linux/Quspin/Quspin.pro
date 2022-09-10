@@ -84,8 +84,8 @@ FORMS += \
     setting.ui
 
 LIBS += \
-    ~/Desktop/MEG/Linux/Quspin/ftd2xx.lib \
-    ~/Desktop/MEG/Linux/Quspin/nidaqmx.lib \
+    ~/Desktop/MEG/Linux/Quspin/libftd2xx.so.1.4.27 \
+    ~/Desktop/MEG/Linux/Quspin/libnidaqmx.so.22.5.0 \
     ~/Desktop/MEG/Linux/Quspin/nisyscfg.lib
 
 

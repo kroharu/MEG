@@ -10,7 +10,9 @@
 
 3) Run the last .exe version of this programm from quspin_exe folder in this repository and be happy.
 
-## How to build on Linux:
+
+## How to build and run on Linux:
+
 ```shell
 cd ~/Desktop
 git clone git@github.com:kroharu/MEG.git
@@ -21,20 +23,39 @@ sudo apt-get install -y libqt5serialport5
 sudo apt-get install -y libqt5serialport5-dev
 sudo apt-get install libqt5charts5
 sudo apt-get install libqt5charts5-dev
-sudo apt dist-upgrade
-```
--- Turn ON your VPN here --
-```shell
-sudo apt install ./MEG/Linux/NILinux2020DeviceDrivers/ni-software-2020-bionic_20.1.0.49152-0+f0_all.deb
+cd MEG/Linux
+cd /usr/local/lib
+sudo ln -s libftd2xx.so.1.4.27 libftdwxx.so
+sudo chmod 0755 libftd2xx.so.1.4.27
+sudo rmmod ftdi_sio
+sudo rmmod usbserial
+sudo cp release/build/lib* /usr/local/lib
 sudo apt update
+sudo apt dist-upgrade
+sudo touch /usr/src/linux-headers-$(uname -r)/include/config/modversions.h
+cd ~/Desktop/MEG/Linux
+sudo apt install ./NILinux2022Q3DeviceDrivers/ni-ubuntu2004firstlook-drivers-2022Q3.deb
+```
+
+### Turn ON your VPN here
+
+```shell
+sudo apt update
+sudo apt install ni-daqmx
+sudo apt install ni-hwcfg-utility
+sudo dkms autoinstall
 reboot
 ```
--- After rebooting your PC --
+
+### After rebooting your PC --
+
 ```shell
 cd ~/Desktop/MEG/Linux/Quspin
 qmake
 make && ./Quspin
 ```
+
+
 ## How to build on Windows:
 
 ### Turn on your VPN here
@@ -61,14 +82,3 @@ Run it and choose only Windows Desktop SDK.
 ![Preview](QtConfig.jpeg)
 
 ### Enjoy!
-
-https://download.qt.io/archive/qt/5.14/5.14.2/
-https://download.qt.io/archive/qtcreator/4.11/4.11.2/
-
-sudo cp release/build/lib* /usr/local/lib
-cd /usr/local/lib
-sudo ln -s libftd2xx.so.1.4.27 libftdwxx.so
-sudo chmod 0755 libftd2xx.so.1.4.27
-sudo rmmod ftdi_sio
-sudo rmmod usbserial
-cd ~/Downloads/release/examples && make
