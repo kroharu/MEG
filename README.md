@@ -2,13 +2,15 @@
 
 ![Preview](Quspin.png)
 
-## How to run Quspin.exe on every Windows:
+## How to run Quspin.exe on every WindowsOS:
 
 1) Put all .dll files from amd64 folder in this repository to your C:\Windows\System32 folder.
 
 2) Go here: https://drive.google.com/file/d/1btAtmC5bpDIZeOk5qBX7EvpbCyRZcYcm/view?usp=sharing and install National Instruments DAQmx driver installer. Run it.
 
-3) Run the last .exe version of this programm from quspin_exe folder in this repository and be happy.
+3) Find in quspin.conf the string, which starts with absolutPath=... and after "=" print your desired destination path.
+
+4) Run the last .exe version of this programm from quspin_exe folder in this repository and be happy.
 
 
 ## How to build on Linux:
