@@ -8,7 +8,7 @@
 
 2) Go here: https://drive.google.com/file/d/1btAtmC5bpDIZeOk5qBX7EvpbCyRZcYcm/view?usp=sharing and install National Instruments DAQmx driver installer. Run it.
 
-3) Find in quspin.conf the string, which starts with absolutPath=... and after "=" print your desired destination path.
+3) Find in quspin.conf the string, which starts with absolutPath and after "=" print your desired destination path.
 
 4) Run the last .exe version of this programm from quspin_exe folder in this repository and be happy.
 
